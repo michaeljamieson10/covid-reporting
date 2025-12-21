@@ -230,6 +230,12 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"parameters": {
+					"covid_parameter": {
+						"type": "string",
+						"defaultValue": "hi"
+					}
+				},
 				"annotations": []
 			},
 			"dependsOn": [
