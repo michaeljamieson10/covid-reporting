@@ -325,6 +325,12 @@
 						"defaultValue": "hi"
 					}
 				},
+				"variables": {
+					"covid_variable": {
+						"type": "String",
+						"defaultValue": "variable_value"
+					}
+				},
 				"annotations": []
 			},
 			"dependsOn": [
