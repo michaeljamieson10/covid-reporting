@@ -47,6 +47,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -188,6 +189,12 @@
 			}
 		],
 		"concurrency": 1,
+		"parameters": {
+			"covid_parameter": {
+				"type": "string",
+				"defaultValue": "hi"
+			}
+		},
 		"annotations": []
 	}
 }
